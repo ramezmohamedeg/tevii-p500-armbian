@@ -48,6 +48,12 @@ APPEND root=LABEL=ROOTFS rootflags=data=writeback rw console=ttyS0,115200 consol
 
 (Comment out or remove the RK3399/RK3328/Amlogic blocks — the full corrected file is in this repo as [`extlinux.conf`](./extlinux.conf).)
 
+## Download
+
+Download Armbian_20.10_Arm-64_bullseye_current_5.9.0_desktop.img.xz from :  https://drive.google.com/drive/folders/1CJEsZ6jdRGFC7XpOFVp8eG-DO0tbrOOb
+Download my patched extlinux.conf file from this repo.
+
+
 ### Full flashing procedure for 5.9
 
 1. Flash the 5.9 Armbian image to the SD card/eMMC with **Rufus**, same as before.
