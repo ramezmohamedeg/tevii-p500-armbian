@@ -50,8 +50,10 @@ APPEND root=LABEL=ROOTFS rootflags=data=writeback rw console=ttyS0,115200 consol
 
 ## Download
 
-Download Armbian_20.10_Arm-64_bullseye_current_5.9.0_desktop.img.xz from :  https://drive.google.com/drive/folders/1CJEsZ6jdRGFC7XpOFVp8eG-DO0tbrOOb
-Download my patched extlinux.conf file from this repo.
+1- Download Armbian_20.10_Arm-64_bullseye_current_5.9.0_desktop.img.xz from :  https://drive.google.com/drive/folders/1CJEsZ6jdRGFC7XpOFVp8eG-DO0tbrOOb
+
+
+2- Download my patched extlinux.conf file from this repo.
 
 
 ### Full flashing procedure for 5.9
